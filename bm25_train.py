@@ -9,7 +9,7 @@ from utils import bm25_tokenizer, calculate_f2
 # from config import Config
 
 class Config:
-    data_path = "data"
+    data_path = "/kaggle/input/ltr_dataset"
     save_bm25 = "saved_model"
     top_k_bm25 = 2
     bm25_k1 = 0.4

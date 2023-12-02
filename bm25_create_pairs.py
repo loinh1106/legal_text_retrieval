@@ -12,7 +12,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--top_pair", default=20, type=int)
     parser.add_argument("--model_path", default="saved_model/bm25_Plus_04_06_model_full_manual_stopword", type=str)
-    parser.add_argument("--data_path", default="data", type=str, help="path to input data")
+    parser.add_argument("--data_path", default="/kaggle/input/ltr-dataset", type=str, help="path to input data")
     parser.add_argument("--save_pair_path", default="pair_data/", type=str, help="path to save pair sentence directory")
     args = parser.parse_args()
 
